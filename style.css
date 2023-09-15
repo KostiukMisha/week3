@@ -1,0 +1,73 @@
+body { background-color: #EEE8AA;
+} 
+
+h2, div, ul, img {
+    display: inline;
+ }
+ul{
+  display: inline-block;
+}
+.primary-header { 
+  text-align: center;
+ }
+.primary-footer {
+text-align: center;
+padding-top: 70px;
+}
+.FD {
+  display: block ;
+  width: 200px;
+  padding-top: 40px;
+  padding-left: 26px;
+
+}
+.rt {
+  display: block;
+  width: 200px;
+  padding-top: 40px;
+  padding-left: 26px;
+}
+.sp {
+  display: block ;
+  width: 200px;
+  padding-top: 40px;
+  padding-left: 26px;
+
+}
+  
+.qwerty {
+display: block;
+margin: auto;
+
+}
+  
+.food {
+   display: inline;
+   padding-left: 422px;
+   padding-top: 50px;
+   margin-right: 50px;
+
+  }
+
+.rest{
+    display: inline;  
+    margin-left: 422px; 
+    padding-top: 50px;
+    margin-right: 50px;
+
+  }
+.shop{
+    display: inline;
+    margin-left: 422px;
+    padding-top: 50px;
+    margin-right: 50px;
+  }
+.title_wrapper{
+     display: flex;
+  }
+
+  a {
+    text-decoration: none;
+
+  }
+  

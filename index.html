@@ -1,72 +1,7 @@
 <html> 
   <head>
     <title> my first site </title>
-    <style>
-    body { background-color: #EEE8AA;
-    } 
-
-    h2, div, ul, img {
-        display: inline;
-     }
-    ul{
-      display: inline-block;
-    }
-  .primary-header { 
-      text-align: center;
-     }
-  .FD {
-      display: block ;
-      width: 200px;
-      padding-top: 40px;
-      padding-left: 26px;
-
-    }
-    .rt {
-      display: block;
-      width: 200px;
-      padding-top: 40px;
-      padding-left: 26px;
-    }
-    .sp {
-      display: block ;
-      width: 200px;
-      padding-top: 40px;
-      padding-left: 26px;
-
-    }
-      
-   .qwerty {
-    display: block;
-    margin: auto;
-
-   }
-      
-   .food {
-       display: inline;
-       padding-left: 422px;
-       padding-top: 50px;
-       margin-right: 50px;
-
-      }
-
-   .rest{
-        display: inline;  
-        margin-left: 422px; 
-        padding-top: 50px;
-        margin-right: 50px;
-
-      }
-  .shop{
-        display: inline;
-        margin-left: 422px;
-        padding-top: 50px;
-        margin-right: 50px;
-      }
-      .title_wrapper{
-
-       display: flex;
-      }
-  </style>
+    <link rel="stylesheet" href="style.css"> 
   </head>
 <body>
   <header>
@@ -75,8 +10,8 @@
 </header>
   <main>
     <section>
-      <div class="title_wrapper" >
-        <img class="food" width="200"  height="133"src="https://bogatyr.club/uploads/posts/2023-06/1687768812_bogatyr-club-p-fon-dlya-prezentatsii-minimalizm-yeda-pint-6.jpg" />
+      <div  class="title_wrapper" >
+        <img class="food" width="200"  height="133"src="food.jpg" alt="screenshot"/>
         <div>
           <h2 class="FD"> food </h2>
          <ul>
@@ -123,7 +58,10 @@
         </div>
      </section>
   </main>
-  <footer>
+  <footer class="primary-footer">
+    <a href="https://github.com/KostiukMisha">
+      my GitHub
+    </a>
   </footer>
 </body>
 </html> 
